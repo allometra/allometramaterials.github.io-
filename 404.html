@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Allometra Materials</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0B1A2E;
+            --navy-mid: #122240;
+            --teal: #1B6B7D;
+            --teal-light: #2A8FA3;
+            --ice: #A3D5E0;
+            --off-white: #F0F4F5;
+            --white: #FFFFFF;
+            --gray-300: #CBD5DC;
+            --gray-500: #6B7D8A;
+            --accent-green: #3ECF8E;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--navy);
+            color: var(--off-white);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .logo {
+            font-family: 'Space Grotesk', sans-serif;
+            font-weight: 700;
+            font-size: 1.15rem;
+            color: var(--white);
+            letter-spacing: 0.02em;
+            margin-bottom: 3rem;
+            opacity: 0.7;
+        }
+
+        .error-code {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(6rem, 20vw, 10rem);
+            font-weight: 700;
+            line-height: 1;
+            background: linear-gradient(135deg, var(--teal-light), var(--ice));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(1.25rem, 4vw, 1.75rem);
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: var(--gray-300);
+            font-size: 1rem;
+            max-width: 420px;
+            margin-bottom: 2.5rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.75rem 2rem;
+            background: linear-gradient(135deg, var(--teal), var(--teal-light));
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.02em;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn:hover {
+            opacity: 0.85;
+        }
+
+        .divider {
+            width: 48px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--teal), var(--accent-green));
+            border-radius: 2px;
+            margin: 0 auto 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">Allometra Materials</div>
+    <div class="error-code">404</div>
+    <div class="divider"></div>
+    <h1>Page Not Found</h1>
+    <p>The page you're looking for doesn't exist or may have been moved. Let's get you back on track.</p>
+    <a href="https://allometramaterials.com" class="btn">Back to Home</a>
+    <p style="margin-top: 2.5rem; font-size: 0.8rem; color: var(--gray-500);">
+        <a href="/privacy.html" style="color: var(--gray-500);">Privacy Policy</a>
+    </p>
+</body>
+</html>
